@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Loot!",
+  "description": "Replace default new tab page in Chrome with a fun RPG looting game.",
+  "version": "1.0",
+
+  "chrome_url_overrides" : {
+    "newtab": "tab.html"
+  },
+  "permissions": [
+    "bookmarks"
+  ],
+
+  "background":
+  {
+      "scripts": ["jquery-3.3.1.min.js"]
+  }
+}
